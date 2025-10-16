@@ -23,6 +23,9 @@ default_fields = [
 
 @surfactant.plugin.hookimpl
 def write_sbom(sbom: SBOM, outfile) -> None:
+    ```
+    This is my awesome docstring describing this function.
+    ```
     # plugin args could be handled here to change behavior
     fields = default_fields
 
